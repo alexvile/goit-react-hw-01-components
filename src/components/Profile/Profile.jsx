@@ -21,7 +21,6 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
         <UserTag>@{tag}</UserTag>
         <UserLocation>{location}</UserLocation>
       </CardDescription>
-
       <CardStats>
         <CardStat>
           <CardStatLabel>Followers</CardStatLabel>

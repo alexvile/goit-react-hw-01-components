@@ -24,14 +24,20 @@ export const Item = styled.li`
   display: flex;
   flex-direction: column;
 `;
-export const ItemLabel = styled.p`
+export const ItemLabel = styled.span`
+  display: block;
   font-weight: 500;
   color: white;
   font-size: 12px;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
+  padding-top: 5px;
+  padding-bottom: 5px;
 `;
-export const ItemValue = styled.p`
+export const ItemValue = styled.span`
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: block;
   font-weight: 500;
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
